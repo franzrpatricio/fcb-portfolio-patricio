@@ -1,0 +1,61 @@
+/* CSS = Cascading StyleSheet */
+
+/*  * == selector for all  */
+*{
+    /* 2nd font = fallback font */
+    font-family: "Roboto", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1,h2 {
+    font-family: "Montserrat", sans-serif;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+#landing{
+    height: 80vh;
+    /* center the contents of landing horizontaly & vertically */
+    /* nag isang row yung contents */
+    display: flex;
+    /* naka column yung contents */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* vh == for overall height */
+/* ex: mt-5 == grading 5 = 3rem == 3*16 ==48px */
+/* px == dots */
+/* rem == responsive measurement; 
+root element; measurement based on default font size (HTML)=16px */
+/* em == based on parent element */
+
+#gallery{
+    height: 75vh;
+    /* center the contents of landing horizontaly & vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* round the corner */
+    border-radius: 16px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+h2{
+    color: #007bff;
+}
+.tools{
+    height: 200px;
+    border: 5px solid #f2f2f2;
+    /* padding == space sa loob */
+    padding: 25px;
+    /* margin == space sa labas */
+    margin: 20px;
+    width: 75%;
+}
